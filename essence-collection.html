@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkinEssence</title>
+  <link rel="stylesheet" href="style.css">
+
+</header>
+
+<header class="mainheader">
+  <h4 id="logo"><span>S</span>kin <span>E</span>ssence</h4>
+  <nav>
+    <a href="home.html">Home</a> <span class="divider">|</span>
+    <a href="skin-types.html">Skin Types</a> <span class="divider">|</span>
+    <a href="self-care.html">Self-Care</a> <span class="divider">|</span>        
+    <a href="essence-collection.html">Essence Collection</a> <span class="divider">|</span>
+    <a href="making-of.html">Making of Skin Essence</a> <span class="divider">|</span>
+    <a href="our-story.html">Our Story</a>
+    </nav>
+
+
+<div>
+<a href=""id="sign-in-btn"><img class="minilogo" src="images/login-blue.png" alt="login"></a>
+</div>
+
+<div id="popup-overlay" class="hidden">
+    <div class="popup-image">
+    <img src="images/popup.png" alt="Popup Image" id="imgpop">
+    <div id="popup">
+      <div class="popup-content">
+        <h2><span id="nobold">Welcome to</span><br><span class="span2">S</span>kin <span class="span2">E</span>ssence</h2>
+        <p>Sign in to explore personalized skincare routines, expert tips, and exclusive member-only perks crafted just for you.</p>
+
+        <form id="sign-in-form">
+          <div class="input-container">
+            <input type="text" id="first-name" placeholder="First Name" required>
+            <input type="text" id="last-name" placeholder="Last Name" required>
+            <input id="mobile"type="text" id="mobile" placeholder="Mobile No" required>
+            <input id="email" type="email" id="email" placeholder="@Email" required >
+          </div>
+          <p id="error-message" class="error hidden">Please fill out the required fields correctly.</p>
+          <button type="submit" id="submit-btn">Sign In</button>
+          </form>      
+          <button id="close-btn">Close</button>
+        </div>
+    </div>
+    </div>
+  </div>
+
+
+</header>  
+  
+</head>
+<body class="bodyshop">   
+    <div class="hero">
+        <img class="hero-image" src="images/shop/shop-background.png"> 
+
+        <section class="hero">
+    
+        <div class="hero-content">
+          <h1>Essence Collection</h1>
+          <p class="p1">Discover Your Perfect <br>Skincare Products</p>
+          <p class="p2">Explore our carefully curated selection of skincare essentials designed to nourish and rejuvenate your skin.</p>
+        </div>
+    </div>
+      </section>
+
+      <header class="header2">
+        <h1>Essence Collection</h1>
+        <hr>
+        <p id="welcome-message">Discover Your Perfect Skincare Products</p>
+    </header>
+    <main class="main-content">
+        <aside class="sidebar">
+            <div class="search-container">
+                <div class="search-icon">
+                    <img src="images/search.png" alt="Search" />
+                </div>
+                <input type="text" id="productSearchBar" placeholder="Search" />
+            </div>
+            <div class="sidebar-buttons">
+                <a href="#product1"><button>-Gentle Foaming Cleanser</button></a>
+                <a href="#product2"><button>-Hydrating Cream Cleanser</button></a>
+                <a href="#product3"><button>-Everyday Nourishing Lotion</button></a>
+                <a href="#product4"><button>-Moisture Lock Elixir</button></a>
+                <a href="#product5"><button>-Radiance Boosting Serum</button></a>
+                <a href="#product6"><button>-Natural Wonders Collection</button></a>
+                <a href="#product7"><button>-Revive & Restore Cream</button></a>
+                <a href="#product8"><button>-Soothing Hydration Gel</button></a>
+            </div>
+        </aside>
+
+
+
+        <section class="products">
+            <div class="product" id="product3">
+                <img src="images/shop/product4.png" alt="Everyday Nourishing Lotion">
+                <h3>Everyday Nourishing Lotion</h3>
+                <p>A lightweight lotion that hydrates and nourishes your skin daily.</p>
+                <p class="price">$22.00</p>
+            </div>
+
+            <div class="product" id="product4">
+                <img src="images/shop/product5.png" alt="Moisture Lock Elixir">
+                <h3>Moisture Lock Elixir</h3>
+                <p>An intense hydrating serum that locks in moisture.</p>
+                <p class="price">$25.00</p>
+            </div>
+
+            <div class="product" id="product6">
+                <img src="images/shop/product6.png" alt="Natural Wonders Collection">
+                <h3>Natural Wonders Collection</h3>
+                <p>A curated selection of organic skincare products.</p>
+                <p class="price">$75.00</p>
+            </div>
+
+            <div class="product" id="product7">
+                <img src="images/shop/product7.png" alt="Revive & Restore Cream">
+                <h3>Revive & Restore Cream</h3>
+                <p>A rejuvenating cream that repairs and replenishes skin.</p>
+                <p class="price">$35.00</p>
+            </div>
+
+            <div class="product" id="product2">
+                <img src="images/shop/product8.png" alt="Hydrating Cream Cleanser">
+                <h3>Hydrating Cream Cleanser</h3>
+                <p>A rich cream formula that removes impurities.</p>
+                <p class="price">$20.00</p>
+            </div>
+
+            <div class="product" id="product5">
+                <img src="images/shop/product9.png" alt="Radiance Boosting Serum">
+                <h3>Radiance Boosting Serum</h3>
+                <p>A powerful serum that brightens skin tone.</p>
+                <p class="price">$30.00</p>
+            </div>
+
+            <div class="product" id="product1"> 
+                <img src="images/shop/product10.png" alt="Gentle Foaming Cleanser">
+                <h3>Gentle Foaming Cleanser</h3>
+                <p>A soothing foam that cleanses without stripping moisture.</p>
+                <p class="price">$18.00</p>
+            </div>
+
+            <div class="product" id="product8">
+                <img src="images/shop/product11.png" alt="Soothing Hydration Gel">
+                <h3>Soothing Hydration Gel</h3>
+                <p>A lightweight gel that provides instant hydration.</p>
+                <p class="price">$16.00</p>
+            </div>
+        </section>
+    </main>
+
+      <footer class="footer">
+
+        <div class="footer-brand">
+
+            <div class="footer-brand-part1"><span>S</span>kin</div>
+
+            <div class="footer-brand-part2"><span>E</span>ssence</div>
+
+        </div>
+
+        <div class="footer-links">
+
+            <a href="#">Privacy Policy</a> |
+
+            <a href="#">Terms of Use</a> |
+
+            <a href="#">Accessibility Policy</a> |
+
+            <a href="#">Privacy Policy Opt-out</a>
+
+        </div>
+
+        <div class="footer-globe">
+
+            <img src="images/shop/web.png" alt="Globe Icon" class="globe-icon">
+
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
+    </body>
+    </html>
