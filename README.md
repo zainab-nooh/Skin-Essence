@@ -39,7 +39,6 @@ Accessibility: WCAG 2.1 compliant with semantic markup
 - User community features and routine sharing
 - Mobile app development for iOS/Android
 
-[SkinEssence](https://skin-essence.onrender.com)
 
 ---
 
