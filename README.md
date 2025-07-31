@@ -1,11 +1,11 @@
-# 🌿 SkinEssence
+# SkinEssence
 
 
 **SkinEssence** is a responsive web application that simplifies skincare education by providing personalized routines, ingredient knowledge, and natural remedy guidance. Built to make professional skincare advice accessible to everyone.
 
 [SkinEsssence](https://skin-essence.onrender.com/)
 
-### 🎯 Problem Solved
+###  Problem Solved
 Transforms overwhelming skincare information into clear, personalized guidance based on individual skin types and concerns.
 
 ## ✨ Key Features
