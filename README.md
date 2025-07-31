@@ -45,4 +45,4 @@ Accessibility: WCAG 2.1 compliant with semantic markup
 
 **Built with modern web technologies to deliver real value to users while showcasing professional development skills.**
 
-[LinkedIn](www.linkedin.com/in/zainab-nooh/)
+[LinkedIn](https://www.linkedin.com/in/zainab-nooh)
