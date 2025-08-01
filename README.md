@@ -63,7 +63,6 @@ Performance: Image optimization, lazy loading, clean code architecture
  * **Zahraa Alajalabi** 
  * **Ruhaina Alasfoor**
  * **Shooq Dadsha**
- * **Noora Almalood**
  * **Shaikha Albuainain**
  <br><br> 
 
