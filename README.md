@@ -9,8 +9,6 @@
 
 </div>
 
-[SkinEsssence](https://skin-essence.onrender.com/)
-
 ##  Why SkinEssence?
 Transforms overwhelming skincare information into clear, personalized guidance based on individual skin types and concerns.
 
